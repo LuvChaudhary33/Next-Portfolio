@@ -73,6 +73,7 @@ export const projectsData = [
     description:
       "A full-stack website showcasing a dynamic portfolio, empowering users to create and manage their blog posts seamlessly. Implemented Next-Auth and Google Auth for user convenience.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Redux"],
+    link: "",
     imageUrl: Next,
   },
   {
@@ -88,6 +89,7 @@ export const projectsData = [
     description:
       "A full Stack Ai Image generator using OpenAI and Cloudinary. Also showcases all the Images created by users with their propmt.",
     tags: ["React", "NodeJS", "OpenAI", "Tailwind", "MongoDB", "Cloudinary"],
+    link: "",
     imageUrl: AI,
   },
 ] as const;

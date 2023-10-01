@@ -24,7 +24,7 @@ export default function Project({
             <h3 className="text-2xl font-semibold">{title}</h3>
             <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">{description}</p>
             <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
-            {link && <a target="_blank" href={link} className="flex justify-center items-center gap-1 bg-cyan-500/[0.7] px-2 py-1 w-[7rem] text-[0.9rem] uppercase text-white rounded-full dark:text-white/70 dark:bg-cyan-500/80"><TbWorld/>Live Demo</a>}
+            {link != "" && <a target="_blank" href={link} className="flex justify-center items-center gap-1 bg-cyan-500/[0.7] px-2 py-1 w-[7rem] text-[0.9rem] uppercase text-white rounded-full dark:text-white/70 dark:bg-cyan-500/80"><TbWorld/>Live Demo</a>}
                 {tags.map((tag, index) =>(
                     <li className="bg-black/[0.7] px-3 py-1 text-[0.9rem] uppercase tracking-wider text-white rounded-full dark:text-white/70" key={index}>{tag}</li>
                 ))}
